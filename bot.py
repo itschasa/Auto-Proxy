@@ -1,6 +1,9 @@
 # ID of the channel you want to have proxies in.
 channel_id = 883789010529574943
 
+# Bot's Token
+TOKEN = "
+
 
 from discord.ext import commands
 import requests, asyncio, time, re, discord
@@ -57,4 +60,4 @@ async def setup():
         await asyncio.sleep(300)
 
 bot.loop.create_task(setup())
-bot.run("ODgzNzk3NDQwOTE3MDMzMDIy.YTPKgg.oS3P6kxgQKkwhYMbBe2qAgEomIo")
+bot.run(TOKEN)
